@@ -21,7 +21,7 @@ const Home: NextPage = () => {
           >
             <Heading
               as="h2"
-              bgGradient="linear(to-r, #43B3AE, #e3192a)"
+              bgGradient="linear(to-b, #43B3AE, #FF6666)"
               bgClip="text"
               fontWeight="bold"
               mt="10"
@@ -38,6 +38,7 @@ const Home: NextPage = () => {
             >
               {tagline}
             </Text>
+
             <AllCards />
           </Flex>
         </div>

@@ -92,14 +92,14 @@ const LinkCard = (props: CardProps) => {
   return (
     <Box as="a" target={"_blank"} href={href} height="100%">
       <SimpleGrid
-        bg={useColorModeValue("white", "gray.900")}
+        bg="gray.900"
         p={3}
         maxW="400px"
         width="100%"
         height="100%"
         gridTemplateColumns="85px 1fr"
         border="1px solid"
-        borderColor={useColorModeValue("gray.200", "gray.700")}
+        borderColor="gray.700"
         borderRadius="2xl"
         boxShadow="lg"
         transition="all 0.25s"
@@ -117,9 +117,9 @@ const LinkCard = (props: CardProps) => {
               bg="teal.400"
               border="1px solid"
               position="absolute"
-              borderColor={useColorModeValue("gray.200", "red.700")}
+              borderColor="green.400"
               inset="0"
-              opacity={useColorModeValue(0.15, 0.25)}
+              opacity={0.25}
             />
             <Icon
               h={[8, 8]}
@@ -145,11 +145,7 @@ const LinkCard = (props: CardProps) => {
             </Text>
           </Stack>
 
-          <Text
-            color={useColorModeValue("gray.600", "gray.400")}
-            whiteSpace="normal"
-            width="100%"
-          >
+          <Text color="gray.400" whiteSpace="normal" width="100%">
             {description}
           </Text>
         </Flex>
