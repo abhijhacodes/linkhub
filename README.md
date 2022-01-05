@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Sharing links was never this easy and beautiful
+### Share all your profile links in just one link
 
-## Getting Started
+See the <a href="https://abhishek-links.vercel.app/">LIVE DEMO</a>
 
-First, run the development server:
+### DEMO:
+![Screenshot from 2022-01-05 16-03-44](https://user-images.githubusercontent.com/77770628/148216345-48b24057-18dd-43a1-8e51-dc343a53ccb0.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<br/>Completely responsive and beautiful web UI built with Next js, Chakra UI and Typescript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br/>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<strong>To use this template:</strong>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Click on use this template in this repository
+- Or clone the repo Or download the source code
+- To make this your own, you just have to change the data content
+    - data/mainDetails => Your name and headline
+    - data/linkDetails => All your social profiles with small description
+- You can add new profiles by just inserting the appropriate data in file
+- You can also remove the profiles by just deleting from the file
+- Default icon will be added to the data whose icon is not there now, so no need to worry
+- You can also change the code to add icons or request to add in the Discussions <a href="https://github.com/abhijhacodes/linkhub/discussions">HERE</a>
+- After making changes in the data folder, you can push the changes to your own github repo
+- Then deploy it on Vercel to share it with the world :D
+- And don't forget to star the repo
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<br/><strong>You can request to add some new features or UI change, and you can also contribute to this open source project</strong>
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### <br/>Happy Sharing <3
